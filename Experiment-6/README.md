@@ -1,12 +1,10 @@
+UDP
 
-## License
 
-This project is open-source and available under the MIT License.
+Run:
 
-## Repository
+gcc udp_server.c -o udp_server -lws2_32
+gcc udp_client.c -o udp_client -lws2_32
 
-This project is hosted on GitHub at: https://github.com/GiridharanS1729/CN/Experiment-6
-
-## Author
-
-* Name: Giridharan S    
+./udp_server
+./udp_client
